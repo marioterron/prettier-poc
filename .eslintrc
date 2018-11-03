@@ -9,7 +9,7 @@
   "plugins": ["import", "jsx-a11y", "react"],
   "rules": {
     "arrow-parens": ["error", "always"],
-    "max-len": ["error", { "code": 120 }],
+    "max-len": "off",
     "new-cap": "warn",
     "no-debugger": "off",
     "react/prefer-stateless-function": "error",
@@ -35,12 +35,6 @@
     "no-param-reassign": "error",
     "no-plusplus": "error",
     "prefer-template": "error",
-    "no-restricted-syntax": [
-      "warn",
-      "ForInStatement",
-      "ForOfStatement",
-      "LabeledStatement",
-      "WithStatement"
-    ]
+    "no-restricted-syntax": ["warn", "ForInStatement", "ForOfStatement", "LabeledStatement", "WithStatement"]
   }
 }
