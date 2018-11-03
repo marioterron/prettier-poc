@@ -1,0 +1,46 @@
+{
+  "env": {
+    "browser": true,
+    "node": true,
+    "jest": true
+  },
+  "extends": "airbnb",
+  "parser": "babel-eslint",
+  "plugins": ["import", "jsx-a11y", "react"],
+  "rules": {
+    "arrow-parens": ["error", "always"],
+    "max-len": ["error", { "code": 120 }],
+    "new-cap": "warn",
+    "no-debugger": "off",
+    "react/prefer-stateless-function": "error",
+    "react/jsx-filename-extension": "off",
+    "react/jsx-indent": ["error", "tab"],
+    "react/jsx-indent-props": ["error", "tab"],
+    "import/no-extraneous-dependencies": "off",
+    "import/prefer-default-export": "error",
+    "jsx-a11y/no-static-element-interactions": "off",
+    "class-methods-use-this": "error",
+    "indent": ["error", "tab"],
+    "linebreak-style": "off",
+    "no-tabs": "off",
+    "template-curly-spacing": ["error", "always"],
+    "react/prop-types": "error",
+    "react/forbid-prop-types": "error",
+    "react/jsx-no-bind": "error",
+    "react/no-children-prop": "error",
+    "no-prototype-builtins": "error",
+    "react/no-unused-prop-types": "error",
+    "no-unused-expressions": "error",
+    "no-var": "error",
+    "no-param-reassign": "error",
+    "no-plusplus": "error",
+    "prefer-template": "error",
+    "no-restricted-syntax": [
+      "warn",
+      "ForInStatement",
+      "ForOfStatement",
+      "LabeledStatement",
+      "WithStatement"
+    ]
+  }
+}
